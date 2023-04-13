@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f3eeee;
+    font-family: 'Cairo', sans-serif;
+    position: relative;
+    user-select: none;
+}
+.container {
+    font-family: 'Cairo', sans-serif;
+}
+.container .header {
+    margin: 40px auto;
+    user-select: none;
+    position: relative;
+}
+.container .header h1 {
+    color: #c09d77;
+    text-align: center;
+    font-weight: 900;
+}
+.container .header span.first {
+    position: absolute;
+    top: 20%;
+    font-size: 50px;
+    right: 30%;
+    color: #3b6149;
+}
+.container .header span.second {
+    position: absolute;
+    top: 20%;
+    font-size: 50px;
+    left: 30%;
+    color: #3b6149;
+}
+@media (max-width: 776px){
+    .container .header span.first {     
+        top: 0%;     
+        right: 10%;     
+    }
+    .container .header span.second {     
+        top: 0%;     
+        left: 10%;     
+    }
+}
+.container .header .country {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 60px;
+}
+.container .country h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 100px auto;
+    margin-bottom: 35px;
+}
+.container .country-select {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-select:focus {
+    border-color: #3b6149 !important;
+    box-shadow: 0 0 0 0.25rem #3b614963 !important;
+}
+.times {
+    margin: 75px auto;
+}
+.times .card {
+    margin: 20px auto;
+}
+.times .card img {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.times .card-body {
+    text-align: center;
+}
+.times .card-body .prayName {
+    font-size: 27px;
+    font-weight: 700;
+    color: #3b6149;
+    user-select: none;
+}
+.times .card-body .prayTime {
+    font-size: 27px;
+}
+footer {
+    margin: 0;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #c09d77;
+    color:#3b6149;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 100;
+}
+footer a {
+    text-decoration: none;
+    color:#3b6149;
+}
+footer a:hover {
+    color:#3b6149;
+}
+footer p {
+    margin: 0 !important;
+}
