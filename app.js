@@ -51,7 +51,7 @@ function cityChosing(){
 function getTimes(city="Istanbul"){
     axios({
         method: 'get',
-        url: `http://api.aladhan.com/v1/calendarByCity/2017/4?city=${city}&country=Turkye`,
+        url: `https://api.aladhan.com/v1/calendarByCity/2017/4?city=${city}&country=Turkye`,
         responseType: 'json'
       })
         .then(function (response) {
